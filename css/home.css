@@ -1,0 +1,158 @@
+*{
+  color:white;
+  background-color:#202020;
+
+}
+.navbar{
+	background-color:#202020;
+}
+.row{
+	width:101.1%;
+}
+.tab1{
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:3%;
+	text-align:center;
+}
+.linkk{
+
+color:#989898;
+
+}
+
+.linkk:hover{
+
+color:white;
+
+}
+.inline {
+   display:inline-block;
+  
+}
+.intro{
+	color:#A9A9A9;
+}
+p.intro::before { 
+        content: "Frontend Developer"; 
+        animation: animate infinite 30s; 
+	animation-iteration-count: 1;
+        text-align:left; 
+	transition:1s ease;
+    } 
+ @keyframes animate { 
+  
+        0% { 
+            content: "Frontend Developer"; 
+        }
+
+	25% { 
+            content: "Backend Developer"; 
+        } 
+  	 
+        50% { 
+            content: "FullStack Developer"; 
+        } 
+  
+        75% { 
+            content: "Web Designer"; 
+        } 
+    } 
+
+.circle-icon{
+    
+	padding:10px;
+    color:white;width:40px;
+	font-size:20px;
+    border-radius: 100%;
+	text-align:center;
+}
+.circle-icon:hover{
+	box-shadow: 0 4px 8px 2px gray;
+}
+
+.languages {
+        display:inline-block;
+	font-size:48px;
+	PADDING-LEFT:10PX;
+  	 text-align: center;
+	
+
+  
+}
+.icon-txt{
+	float:bottom;
+	font-size:20px;
+        text-align: center;
+	padding-top:10px;
+}
+
+
+img.pic{
+  border-radius: 100%;
+  border: 10px solid #404040;
+  box-shadow: 0 4px 8px #181818;
+}
+.tabs{
+	padding:2%;
+}
+.card1{
+margin:8px;
+margin-left:30px;
+padding:12px;
+border-left: 3px solid rgb(255, 199, 0);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+height:125px;
+color:white;
+background-color:#202020;
+}
+.card-text{
+ padding-left:29px;
+ color:c8cbda;
+}
+
+
+.box1{
+  border: 2px solid #008ae6;
+  padding:  0.2em 2em;
+  border-radius: 30px;
+  line-height:2;
+  box-shadow: 4px 4px 4px  black; 
+}
+.b1:hover {background-color:#008ae6}
+.b2:hover {color:black;background-color:White}
+
+.certifications{
+	margin:2%;padding-left:8%;
+}
+
+.certifications-tabs{
+border:1px solid #b2b6b9;
+width:28% !important;
+margin-left:2%;
+margin-bottom:4%;
+border-radius:5px;
+}
+.certication-img{
+	padding:10px;margin-left:6%;
+}
+.linkdin-icon{
+	background-color:#4b50e3;padding:2px;color:white;font-size:15px;
+}
+.project-link{
+margin-left:10%;margin-right:10%;border-radius:10px;
+}
+@media screen and (max-width: 800px) {
+  .certifications-tabs{
+   width:80%!important;
+   margin-left:6%;
+  }
+	
+}
+@media screen and (max-width: 500px) {
+  .certifications-tabs{
+    width:80%!important;
+	  margin-left:6%;
+  }
+	
+}

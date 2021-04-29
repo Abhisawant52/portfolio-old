@@ -1,0 +1,43 @@
+
+.tab{
+	width:100%;
+}
+.card{
+	margin-left:15%;
+	width:85%;
+}
+
+.linkk{
+color:#989898;
+}
+
+.linkk:hover{
+color:BLACK;
+}
+.tab-title{
+  margin-top:2%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #565656;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.tab-title:after{
+	margin:auto;
+	height: 10px;
+    display: block;
+    width:20%;
+    border-top:3px solid green;
+    content: '';
+}
+@media screen and (max-width: 800px) {
+  .tabs {
+    padding-left:20%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tabs {
+    padding-left:20%;
+  }
+}
