@@ -31,13 +31,21 @@ color:BLACK;
     content: '';
 }
 @media screen and (max-width: 800px) {
-  .tabs {
-    padding-left:20%;
-  }
+  .tab1{
+	width:94%;
+}
+.card{
+	margin-left:15%;
+	width:85%;
+}
 }
 
 @media screen and (max-width: 500px) {
-  .tabs {
-    padding-left:20%;
-  }
+  
+  .tab1{
+	width:94%;
+}.card{
+	margin-left:15%;
+	width:85%;
+}
 }
