@@ -10,6 +10,7 @@
        var printContents = document.getElementById(divId).innerHTML;
        var originalContents = document.body.innerHTML;
        document.getElementById("HASH").setAttribute("style","opacity:0;height:0%;");
+       document.body.innerHTML = printContents;
        window.print();
        document.body.innerHTML = originalContents;
    }
