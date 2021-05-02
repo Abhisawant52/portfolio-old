@@ -9,7 +9,7 @@
    function printDiv(divId) {
        var printContents = document.getElementById(divId).innerHTML;
        var originalContents = document.body.innerHTML;
-       document.body.innerHTML = "<html><head><title></title></head><body>" + printContents + "</body>";
+       document.body.innerHTML = "<html><head><title></title></head><body>" + printContents + "</body></html>";
        window.print();
        document.body.innerHTML = originalContents;
    }
