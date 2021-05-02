@@ -59,5 +59,6 @@ display:none;
  section {
  
  box-shadow:none;
+ border:1px solid black;
 	}
 }
